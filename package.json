@@ -6,12 +6,35 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "acorn": "^6.0.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "bulma": "^0.7.1",
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
     "debug": "~2.6.9",
-    "express": "~4.16.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
-    "morgan": "~1.9.0"
-  }
+    "jquery": "^3.3.1",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  },
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "nodemon": "^1.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntmbayfield/ajax-blog-backend.git"
+  },
+  "author": "Nyiema Bayfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntmbayfield/ajax-blog-backend/issues"
+  },
+  "homepage": "https://github.com/ntmbayfield/ajax-blog-backend#readme"
 }
